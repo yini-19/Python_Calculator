@@ -2,7 +2,6 @@
 """
 Simple Python Calculator
 A robust, modular, and terminal-friendly command-line calculator.
-Developed as Project 5 ("NotebookLM Vibe Coding") with Gemini Notebook.
 """
 
 import sys
@@ -160,8 +159,7 @@ def run_calculator():
     history_manager = CalculationHistory()
     last_result = None  # Holds the result of the previous operation for chaining
     
-    print_header("Interactive CLI Python Calculator")
-    print("Welcome to Project 5: NotebookLM Vibe Coding!")
+    print_header("Welcome to Project 5: Interactive CLI Python Calculator")
     print("Supported Operators: Addition (+), Subtraction (-), Multiplication (*), Division (/, ÷)")
     print("Stretch Operators: Exponent (^), Modulus (%)")
     print("Special Commands:")
@@ -290,7 +288,7 @@ def run_calculator():
             print_error(f"An unexpected mathematical error occurred: {e}")
 
     print_header("Calculator Shutdown")
-    print("Thank you for choosing Gemini Notebook. Good luck with Project 5 submission!")
+    print("Thank you for choosing the simple python calculator. Good luck!")
 
 if __name__ == "__main__":
     run_calculator()
